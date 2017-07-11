@@ -13,11 +13,11 @@ html, body{
    font-weight: normal;
    margin-bottom: 5px;
  }
+
  p {
-   font-size:16px;
-   line-height: 19px;
-   font-weight: 100;
+   padding-bottom:15px;
  }
+
 
  /* HEADER */
 header {
@@ -65,15 +65,11 @@ header .hero h1 {
   font-weight: normal;
   margin:95px 0 0;
 }
-header .hero p {
-  font-size: 22px;
-  line-height: 26px;
-  font-weight: 100;
-  margin:10px 0 40px;
-}
+
 header .hero img {
   display: block;
   margin:3em auto 0;
+  width:80%;
 }
 
 
@@ -115,13 +111,30 @@ header .hero img {
 
  @media (min-width: 768px) {
   .container {
-    width: 750px;
+    width: 100%;
   }
-}
+
+  header .hero p{
+      font-size: 22px;
+      line-height: 26px;
+      font-weight: 100;
+      margin:10px 0 40px;
+    }
+
+  }
+
 @media (min-width: 992px) {
   .container {
-    width: 970px;
+    width: 100%;
   }
+
+  header .hero p{
+      font-size: 22px;
+      line-height: 26px;
+      font-weight: 100;
+      margin:10px 0 40px;
+    }
+
   .one-half {
     width:46%;
   }
@@ -134,6 +147,6 @@ header .hero img {
 }
 @media (min-width: 1200px) {
   .container {
-    width: 1170px;
+    width: 100%;
   }
 }
