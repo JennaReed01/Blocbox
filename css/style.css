@@ -240,6 +240,8 @@ header .hero img {
    margin-top: 30px;
  }
 
+
+
  /* GRID */
  .container {
    margin-right: auto;
@@ -262,6 +264,10 @@ header .hero img {
    position:relative;
    min-height: 1px;
    margin:0 2% 20px;
+ }
+
+ li.one-fourth.second, li.one-fourth.fourth{
+  padding-top:20px;
  }
 
  @media (min-width: 768px) {
